@@ -1,0 +1,22 @@
+.posts {
+    display: flex;
+    flex-direction: column;
+    padding-left: 61px;
+    padding-top: 31px;
+}
+
+.posts__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 13px;
+    margin-top: 16px;
+}
+
+.posts h1 {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+    margin: 0;
+}

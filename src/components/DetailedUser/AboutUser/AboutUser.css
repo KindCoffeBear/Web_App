@@ -1,0 +1,114 @@
+.detailedUser__about {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    margin-bottom: 25px;
+    margin-top: 36px;
+}
+
+.detailedUser__about div:first-child{
+    border: 1px solid;
+}
+
+.detailedUser__about div:nth-child(4){
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+}
+
+.detailedUser__about div:last-child{
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+}
+
+.detailedUser__username + div{
+    border: 1px solid;
+}
+
+.detailedUser__username {
+    grid-column: 2/20;
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+    height: 64px;
+    padding-left: 18px;
+    display: flex;
+    align-items: center;
+    border-width: 1px 0px 1px 0px;
+    border-style: solid;
+}
+
+.detailedUser__name {
+    grid-column: 2/5;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    height: 45px;
+    padding-left: 18px;
+    display: flex;
+    align-items: center;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+}
+
+.detailedUser__email {
+    grid-column: 5/8;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+}
+
+.detailedUser__phone {
+    grid-column: 8/11;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+}
+
+.detailedUser__website {
+    grid-column: 11/15;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 0px 1px 1px 0px;
+    border-style: solid;
+}
+
+.detailedUser__company {
+    grid-column: 15/20;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+}

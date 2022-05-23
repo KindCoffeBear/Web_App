@@ -1,0 +1,29 @@
+.detailedUser__posts {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.detailedUser__titlePosts {
+    font-family: 'Alegreya Sans SC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 40px;
+    padding-left: 53px;
+    padding-top: 16px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+.detailedUser__postsWrap {
+    display: flex;
+    gap: 19.24px;
+    padding-left: 53px;
+    padding-bottom: 33px;
+}
+
+.detailedUser__button {
+    align-self: center;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,40 @@
+.post {
+    border: 1px solid;
+    box-sizing: border-box;
+
+    width: 490.76px;
+    height: 143px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.post__title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    text-transform: capitalize;
+    padding-top: 14px;
+    padding-left: 35px;
+    margin: 0;
+}
+
+.post__description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    padding-left: 35px;
+    margin-top: 4px;
+    width: 421px;
+    color: rgba(0, 0, 0, 0.41);
+}
+
+.post__button {
+    margin-left: 35px;
+    margin-top: auto;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,40 @@
+.comment {
+    border: 1px solid;
+    box-sizing: border-box;
+    width: 490.76px;
+}
+
+.comment__name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 23px;
+    text-transform: capitalize;
+    padding-top: 14px;
+    padding-left: 35px;
+    margin: 0;
+}
+
+.comment__email {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.41);
+    margin-top: 4px;
+    padding-left: 35px;
+}
+
+.comment__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.41);
+    margin: 0;
+    padding-left: 35px;
+    padding-bottom: 17px;
+}

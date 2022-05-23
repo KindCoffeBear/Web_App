@@ -1,0 +1,21 @@
+.users__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 239px;
+    height: 143px;
+    border: 1px solid #000000;
+    padding-left: 17px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+}
+
+.users__card h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 0;
+    
+}
