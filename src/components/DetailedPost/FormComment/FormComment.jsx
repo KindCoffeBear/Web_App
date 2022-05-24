@@ -49,8 +49,8 @@ function FormComment() {
     <form className="form" method="POST" onSubmit={submitHandler}>
       <h2>Оставьте комментарий</h2>
       <div className="form__inputs">
-        <input onChange={changeName} name="name" placeholder="Имя" value={name} />
-        <input onChange={changeEmail} name="email" placeholder="Email" value={email} />
+        <textarea onChange={changeName} name="name" placeholder="Имя" value={name} />
+        <textarea onChange={changeEmail} name="email" placeholder="Email" value={email} />
         <textarea onChange={changeText} name="text" placeholder="Текст комментария" rows="5" value={text} />
       </div>
       <button type="submit" className="button_multifunctional form__button_submit">отправить</button>
